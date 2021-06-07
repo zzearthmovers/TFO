@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TRADE FLUX OVERSEAS</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="favicon.jpg" type="image/gif" sizes="16x16">
+</head>
+<body>
+<script src="js/slideshow.js"></script>
+<div class="header-wrap">
+	<div class="logo">
+		<img src="images/TF_logo.png" align="left">
+		<h1 class="detail1">TRADE <span class="name1">FLUX OVERSEAS</span> </h1>
+    </div>
+</div><!---header-wrap-End--->
+
+<div class="menu-wrap">
+	<div class="menu">
+		<ul>
+        	<li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+			<li><a href="catalog.html">Catalogue</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </div>
+    
+  <div class="socia-wrap">
+	<div class="socail">
+		<ul>
+			<li><a href="https://api.whatsapp.com/send?phone=919766217759" target="_blank" ><img src="images/whatsapp.png" alt="" width="30" height="30"/></a></li>
+        	<li><a href="https://www.facebook.com/tradeflux.zartab.1"  target="_blank"><img src="images/fb.png" alt="" width="25" height="25"/></a></li>
+		</ul>
+	</div>
+</div>
+</div><!---menu-wrap-End--->
+
+<!--
+<div class="banner-wrap">
+	<div class="banner">
+    	<div class="banner-img"><img src="images/SDLG958.JPG" alt="" /></div>
+    </div>
+    <div class="shadow"></div>
+</div> -->
+<!---banner-wrap-End--->
+
+
+
+<!-- Slideshow  start -->
+
+<div class="slideshow-container">
+
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="products/856h.png" style="width:100%">
+  <div class="text">Liugong 856</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="products/sdlg958.png" style="width:100%">
+  <div class="text">SDLG 958</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+<!-- Slideshow  end-->
+
+
+
+<div class="footer-wrap">
+  <div class="wrap">
+    <div class="panel">
+      <div class="title">
+        <h1>Contact us </h1>
+      </div>
+      <div class="cotact">
+        <ul>
+          <li><img src="images/icon6.png" alt="" />+91-97662 17759</li>
+          <li><img src="images/icon7.png" alt="" /><a href="mailto:tradeflux1@gmail.com">tradeflux1@gmail.com</a></li>
+          <li><img src="images/icon8.png" alt="" />40, Weston Street, Kolkata 700013.</li>
+        </ul>
+      </div>
+    </div>
+	
+	
+	
+    <div class="clearing"></div>
+  </div>
+</div><!---footer-wrap--->
+<div class="clearing"></div>
+<div class="copyright-wrap">
+	<div class="wrap">
+    	<div class="content">
+        <p>Copyright (c) www.tradeflux.in. All rights reserved.</p>
+        </div>
+	</div>
+</div><!---copyright-wrap-End--->
+</body>
+</html>
